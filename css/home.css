@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../assets/recepcao.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner h1 {
+    padding-top: 25vh;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.descricao-secoes {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.descricao-secoes h2, h3 {
+    padding-bottom: 10px;
+    color: #333333;
+}
+
+.conteudo-sobre {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.lista-sobre h3 {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.lista-sobre ul li {
+    font-size: 15px;
+    padding: 5px 5px 5px 0;
+}
+
+.galeria-medicos {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.galeria-medicos img {
+    width: 100%;
+    border-bottom: 1px solid #00000070;
+}
+
+.galeria-medicos figure {
+    box-shadow: 1px 1px 8px 1px;  
+    width: 80%;
+}
+
+.galeria-medicos figcaption {
+    padding: 10px 0;
+}
+
+.link-horarios {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.link-horarios a {
+    background: linear-gradient(to right, #00cad1, #004b4c);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.contato p {
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.contato iframe {
+    padding: 10px 0 50px 0;
+}
+
+@media (min-width: 768px) {
+
+    .conteudo-sobre {
+        padding: 0;
+    }
+
+    .galeria-medicos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px 20px;
+        gap: 0;
+    }
+
+    .galeria-medicos figure {
+        width: 30%;
+        margin: 10px 0;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .descricao-secoes p {
+        font-size: 15px;
+    }
+
+    .sobre p {
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .banner h1 {
+        font-size: 26px;
+    }
+
+    .galeria-medicos figure {
+        width: 28%;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .descricao-secoes p {
+        font-size: 18px;
+    }
+
+}

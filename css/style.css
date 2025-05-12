@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.limitar-secao {
+    max-width: 767px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.secao-topo {
+    background-color: #00cad1;
+    padding: 10px 0 20px 0;
+    width: 100%;
+}
+
+.conteudo-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagem-topo img {
+    width: 60%;
+}
+
+.links-topo ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.links-topo a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff
+}
+
+.links-topo a:hover {
+    color: #004b4c;
+}
+
+.links-topo {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+
+.rodape {
+    background-color: #004b4c;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.conteudo-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rodape p {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.rodape img {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+
+    .limitar-secao {
+        max-width: 1023px;
+    }
+
+    .links-topo {
+        border: none;
+        padding-top: 0;
+    }
+
+    .conteudo-topo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .links-topo ul {
+        gap: 20px;
+    }
+
+    .links-topo a {
+        font-size: 18px;
+    }
+
+    .rodape p {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .limitar-secao {
+        max-width: 100%;
+    }
+
+    .links-topo {
+        border: none;
+        padding-top: 0;
+    }
+
+    .conteudo-topo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .rodape p {
+        font-size: 20px;
+    }
+
+    .secao-topo {
+        background-color: #00cad1;
+        padding: 20px;
+    }
+
+    .links-topo a {
+        font-size: 18px;
+    }
+}

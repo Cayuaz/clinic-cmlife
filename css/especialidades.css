@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.links-medicos a {
+    text-decoration: none;
+    border-bottom: 1px solid #00cad1;
+    color: #333333;
+}
+
+.links-medicos a:hover {
+    color: #004b4c;
+}
+
+.links-medicos ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    list-style: none;
+    font-weight: 550;
+}
+
+.conteudo-secoes {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.conteudo-secoes h1 {
+    padding-bottom: 20px;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.conteudo-secoes h2 {
+    padding-bottom: 10px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conteudo-secoes p {
+    padding: 0 10px;
+    font-size: 15px;
+    color: #333331;
+}
+
+.container-tabela img {
+    display: none;
+}
+
+.container-tabela table {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.container-tabela td, th {
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.container-tabela thead {
+    background-color: #00cad1;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container-tabela tbody tr:nth-of-type(odd) {
+    background-color: #CCCCCC;
+}
+
+.container-tabela tbody tr:nth-of-type(even) {
+    background-color: #EEEEEE;
+}
+
+@media (min-width: 768px) {
+
+    .container-tabela {
+        display: flex;
+        padding-bottom: 30px;
+        margin: 0 20px;
+    }
+
+    .container-tabela div {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .container-tabela table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .container-tabela img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .container-tabela th, td {
+        padding: 15px;
+        text-align: left;
+    }
+
+    .container-tabela div:first-child {
+        flex: 1
+    }
+
+    .container-tabela div:last-child {
+        flex: 2
+    }
+}
+
+@media (min-width: 1024px ) {
+    .container-tabela {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+    .conteudo-secoes {
+        margin-top: 40px;
+    }
+
+    .conteudo-secoes h1 {
+        font-size: 22px;
+    }
+
+    .conteudo-secoes h2 {
+        font-size: 20px;
+    }
+
+    .conteudo-secoes p {
+        font-size: 18px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
