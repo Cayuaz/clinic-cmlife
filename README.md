@@ -26,4 +26,6 @@ O site apresenta a **Clínica Médica Life**, oferecendo uma navegação simples
 
 ## 🚀 Como executar
 
-Abra o arquivo `index.html` no navegador.
+Você pode abrir o arquivo `index.html` diretamente no seu navegador, ou acessar a versão online do site:
+
+🔗 [Acesse aqui a versão publicada](https://web-site-hospital.vercel.app/)
