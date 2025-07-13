@@ -6,6 +6,8 @@ O objetivo foi aplicar conhecimentos de HTML e CSS responsivo na criação de um
 
 Landing page fictícia baseada em uma clínica médica, com foco na apresentação dos serviços, especialidades e contato.
 
+![Screenshot](./assets/web-site-hospital.png)
+
 ## 🩺 Sobre o projeto
 
 O site apresenta a **Clínica Médica Life**, oferecendo uma navegação simples e responsiva, com foco na experiência do paciente.
