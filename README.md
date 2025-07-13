@@ -7,7 +7,7 @@ Este site foi desenvolvido como parte de uma atividade prática do curso de Fron
 
 O objetivo foi aplicar conhecimentos de HTML e CSS responsivo na criação de um site institucional.
 
-Landing page fictícia baseada em uma clínica médica, com foco na apresentação dos serviços, especialidades e contato.
+Essa é uma Landing page fictícia baseada em uma clínica médica, com foco na apresentação dos serviços, especialidades e contato.
 
 ## 🩺 Sobre o projeto
 
