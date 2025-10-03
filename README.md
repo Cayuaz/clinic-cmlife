@@ -34,3 +34,7 @@ O site apresenta a **Clínica Médica Life**, oferecendo uma navegação simples
 Você pode abrir o arquivo `index.html` diretamente no seu navegador, ou acessar a versão online do site:
 
 🔗 [Acesse aqui a versão publicada](https://web-site-hospital.vercel.app/)
+
+## Licença
+
+Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
