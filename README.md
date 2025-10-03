@@ -18,6 +18,7 @@ O site apresenta a **Clínica Médica Life**, oferecendo uma navegação simples
 
 ### Tela Desktop
 ![Preview - Desktop](./assets/desktop.png)
+
 ![Preview - Desktop](./assets/desktop2.png)
 
 ### Tela Mobile
