@@ -16,9 +16,13 @@ O site apresenta a **Clínica Médica Life**, oferecendo uma navegação simples
 
 ## Preview
 
-### Tela Desktop
-![Preview - Desktop](./assets/desktop.png)
-![Preview - Desktop](./assets/desktop2.png)
+### Desktop
+
+**Página Principal**  
+![Preview - Desktop Principal](./assets/desktop.png)
+
+**Página de Especialidades**  
+![Preview - Desktop Especialidades](./assets/desktop2.png)
 
 ### Tela Mobile
 ![Preview - Mobile](./assets/mobile.png)
